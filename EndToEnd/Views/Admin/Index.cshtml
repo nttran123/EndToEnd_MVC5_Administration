@@ -2,10 +2,13 @@
 @using PagedList.Mvc;
 <link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
 
+
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <br />
+<body style="background-image: url('../Image/bg.jpg');  background-repeat: no-repeat;  background-size:cover; background-attachment:fixed">
+</body>
 <p>
     @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-default" })
     @Html.ActionLink("Edit Roles", "ViewAllRoles", null, new { @class = "btn btn-default" })
@@ -22,6 +25,7 @@
     </div>
 }
 <br />
+
 
 <table class="table">
     <tr>
